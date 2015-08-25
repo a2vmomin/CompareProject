@@ -347,6 +347,8 @@ public class MainActivity extends ActionBarActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         firstStringEditText.setText("");
                         secondStringEditText.setText("");
+                        Intent intent = new Intent(MainActivity.this, Results.class);
+                        startActivity(intent);
                     }
                 });
                 builder.show();
@@ -362,6 +364,8 @@ public class MainActivity extends ActionBarActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         firstStringEditText.setText("");
                         secondStringEditText.setText("");
+                        Intent intent = new Intent(MainActivity.this, Results.class);
+                        startActivity(intent);
                     }
                 });
                 builder.show();
